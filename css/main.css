@@ -477,6 +477,9 @@ textarea {
 
 /* media queries */
 @media screen and (max-width: 1000px) {
+  .android {
+    padding-left: 0px;
+  }
   html {
     min-width: 0px;
   }
@@ -504,7 +507,7 @@ textarea {
     text-align: center;
     top: 25px;
   }
-  .platform-box img {
+   .platform-box img {
     display: block;
   }
   .icon {
@@ -529,6 +532,5 @@ textarea {
   #feedback {
     display: none;
   }
-
 
 }
