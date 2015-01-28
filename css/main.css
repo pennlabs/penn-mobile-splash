@@ -311,6 +311,7 @@ textarea {
     }
 }
 
+
 #header {
   background-color: #35465c;
   height: 100px;
@@ -472,4 +473,62 @@ textarea {
 
 #labs a, #feedback a {
   color: white;
+}
+
+/* media queries */
+@media screen and (max-width: 1000px) {
+  html {
+    min-width: 0px;
+  }
+  #introduction {
+    height: 400px;
+  }
+  .left-center {
+    display: none;
+  }
+  #logo img {
+    height: 125px;
+    margin-bottom: 10px;
+  }
+  .right-center {
+    margin-left: 0;
+  }
+  #info-box { 
+    width: 320px;
+  }
+  #info-box #info-text p {
+    display: none;
+  }
+
+  #info-box {
+    text-align: center;
+    top: 25px;
+  }
+  .platform-box img {
+    display: block;
+  }
+  .icon {
+    padding-top:10px;
+  }
+  #download-box {
+    margin-top: -15px;
+    display: block;
+  }
+  #header {
+    height: 50px;
+  }
+  #header img {
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+  }
+  .grid {
+    width: auto;
+  }
+
+  #feedback {
+    display: none;
+  }
+
+
 }
