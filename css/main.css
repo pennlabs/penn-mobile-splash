@@ -475,6 +475,10 @@ textarea {
   color: white;
 }
 
+.multiline {
+  line-height: 40px;
+}
+
 /* media queries */
 @media screen and (max-width: 1000px) {
   .android {
